@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Story - Version 0.6</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 20px;
+            background-color: #333; /* Dark Gray */
+            color: #ccc;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #fff;
+        }
+
+        .story {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #444; /* Slightly darker gray */
+            color: #ccc;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #555;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .table-of-contents {
+            width: 25%;
+            background-color: #333; /* Dark Gray, matches the web page background */
+            color: #fff; /* White text on dark gray background */
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .table-of-contents h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .table-of-contents ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .table-of-contents li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 768px) {
+            .story {
+                flex-direction: column;
+            }
+
+            .content {
+                margin-right: 0;
+            }
+
+            .table-of-contents {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Story - Version 0.6</h1>
+        <p>Created by Herrick Salvador</p>
+    </div>
+
+    <div class="story">
+        <div class="content">
+            <div class="chapter" id="chapter1">
+                <h2>Chapter 1: [Chapter Title]</h2>
+                <p>Testing</p>
+            </div>
+
+            <div class="chapter" id="chapter2">
+                <h2>Chapter 2: [Chapter Title]</h2>
+                <p>Testing</p>
+            </div>
+
+            <div class="chapter" id="chapter3">
+                <h2>Chapter 3: [Chapter Title]</h2>
+                <p>Testing</p>
+            </div>
+
+            <div class="chapter" id="chapter4">
+                <h2>Chapter 4: [Chapter Title]</h2>
+                <p>Testing</p>
+            </div>
+        </div>
+
+        <div class="table-of-contents">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#chapter1">Chapter 1: [Chapter Title]</a></li>
+                <li><a href="#chapter2">Chapter 2: [Chapter Title]</a></li>
+                <li><a href="#chapter3">Chapter 3: [Chapter Title]</a></li>
+                <li><a href="#chapter4">Chapter 4: [Chapter Title]</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Add more chapters and table of contents entries as needed -->
+
+</body>
+</html>
